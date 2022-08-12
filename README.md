@@ -4,7 +4,7 @@
  Luck Tester is a game where you test your luck by picking between the inputed number, where one answer is a winnere. This project was developer for Academic Project for BCIT
 
 
-### `Language`
+### `Languages / Techstack`
 
 - HTML
 - CSS
