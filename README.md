@@ -6,6 +6,8 @@
 
 ### `Language`
 
-HTML, CSS, and JS
+- HTML
+- CSS
+- Javscript
 
 
