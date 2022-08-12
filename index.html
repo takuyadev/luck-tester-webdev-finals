@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper-page">
+      <div class="box">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="wrapper-app">
+        <div class="icon-row">
+          <svg
+            class="icon"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            ></path>
+          </svg>
+          <h1>Check your Luck!</h1>
+        </div>
+        <p>
+          Test your luck today; one of the buttons that will show up will be the
+          winner! <br />
+          I recommend 3 or 4 to be your difficulty level; any more than that...
+          you'll have to be really lucky.
+        </p>
+        <div class="topBar">
+          <h2 class="results">Input any number in the text area!</h2>
+          <p id="winStreak"><b>Current Win Streak: </b> 0</p>
+          <p id="scoreBoard"><b>Max Win Streak: </b> 0</p>
+        </div>
+
+        <input
+          id="difficulty"
+          oninput="difficultyChange()"
+          type="text"
+          placeholder="Input Number"
+        />
+        <button onclick="cupAmount()">Change</button>
+        <div class="game-app"></div>
+        <h2>Check your wins here!</h2>
+        <button class="clearButton" onclick="clearAlert()">Clear</button>
+        <div class="alert-area"></div>
+        <script src="app.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
